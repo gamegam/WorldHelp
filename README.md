@@ -1,2 +1,0 @@
-# WorldHelp
-test
