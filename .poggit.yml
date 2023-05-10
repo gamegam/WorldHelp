@@ -4,5 +4,6 @@ branches:
 - test
 projects:
   WorldHelp:
-    path: WorldHelp/
+    path: ""
+    icon: "Game.png"
 ...
