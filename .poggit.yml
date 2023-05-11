@@ -4,6 +4,6 @@ branches:
 - newPM5.0
 projects:
   WorldHelp:
-    path: WorldHelp/
+    path: ""
     icon: "Game.png"
 ...
