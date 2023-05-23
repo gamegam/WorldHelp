@@ -1,6 +1,6 @@
 ---
 branches:
-  - pm5
+  - main
 projects:
   WorldHelp:
     path: ""
