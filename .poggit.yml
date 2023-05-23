@@ -1,6 +1,6 @@
 ---
 branches:
-  - pm5 Beta -5
+  - pm5
 projects:
   WorldHelp:
     path: ""
