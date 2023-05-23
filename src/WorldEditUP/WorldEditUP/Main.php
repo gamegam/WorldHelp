@@ -9,7 +9,7 @@ use pocketmine\player\Player;
 use pocketmine\world\Position;
 use pocketmine\math\Vector3;
 use pocketmine\block\VanillaBlocks;
-use WorldEditUP\WorldEditUP\cmd\UPCommand;
+use WorldEditUP\WorldEditUP\cmd\{UPCommand, setBlockCommand};
 
 class Main extends PluginBase implements Listener{
 
@@ -17,7 +17,10 @@ class Main extends PluginBase implements Listener{
 
     public function onEnable():void{
         $this->getServer()->getPluginManager()->registerEvents(new Event($this), $this);
-        $this->getServer()->getCommandMap()->registerAll("cmd", [new UPCommand()]);
+        $this->getServer()->getCommandMap()->registerAll("cmd", [
+            new UPCommand(),
+            new setBlockCommand()
+        ]);
     }
 
     public function onLoad(): void{
